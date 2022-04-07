@@ -1,0 +1,5 @@
+do {
+  print("hello"[length]),
+  print(4[toFixed](2)), # 4.tofixed(2) # 4.00
+  print(4[+](5, 7, 3)) # 4.+(5, 7, 3) # 19
+}
