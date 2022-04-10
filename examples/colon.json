@@ -1,0 +1,77 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 9,
+          "length": 1,
+          "name": "b"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 2,
+            "col": 13,
+            "length": 5,
+            "name": "array"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "a",
+              "line": 2,
+              "col": 13,
+              "length": 1,
+              "raw": "\"a\""
+            },
+            {
+              "type": "value",
+              "value": 4,
+              "line": 2,
+              "col": 15,
+              "length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 3,
+          "col": 11,
+          "length": 1,
+          "name": "b"
+        }
+      ]
+    }
+  ]
+}

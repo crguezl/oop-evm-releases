@@ -1,0 +1,4 @@
+do(
+    def(b, [a:4]),
+    print(b)
+)

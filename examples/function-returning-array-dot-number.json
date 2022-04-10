@@ -1,0 +1,148 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 9,
+          "length": 1,
+          "name": "f"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 2,
+            "col": 12,
+            "length": 3,
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "length": 5,
+                "name": "array"
+              },
+              "args": [
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "word",
+                    "line": 2,
+                    "col": 18,
+                    "length": 5,
+                    "name": "array"
+                  },
+                  "args": [
+                    {
+                      "type": "value",
+                      "value": 0,
+                      "line": 2,
+                      "col": 18,
+                      "length": 1
+                    },
+                    {
+                      "type": "property",
+                      "operator": {
+                        "type": "word",
+                        "line": 2,
+                        "col": 20,
+                        "length": 4,
+                        "name": "Math"
+                      },
+                      "args": [
+                        {
+                          "type": "value",
+                          "value": "PI",
+                          "line": 2,
+                          "col": 25,
+                          "length": 2,
+                          "raw": "\"PI\""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "value",
+                  "value": 2,
+                  "line": 2,
+                  "col": 29,
+                  "length": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "property",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "line": 3,
+                "col": 11,
+                "length": 1,
+                "name": "f"
+              },
+              "args": []
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "0",
+                "line": 3,
+                "col": 15,
+                "length": 3,
+                "raw": "\"0\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "1",
+              "line": 3,
+              "col": 16,
+              "length": 3,
+              "raw": "\"1\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

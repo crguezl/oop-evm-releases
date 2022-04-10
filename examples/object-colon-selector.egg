@@ -1,0 +1,22 @@
+do (
+  def(x, {
+    c: [1, 2, 3], # array literals!
+    gc:  fun(
+           element(self, "c") # old way works
+         ), 
+    sc:  fun(value, # look at the left side of the assignment!
+           =(self.c[0], value)
+         ),
+    inc: fun( 
+           =(self.c[0], +(self.c[0], 1)) 
+         ) 
+  }),
+  print(x),
+  print(x.gc()),    # [1, 2, 3]
+  x.sc(4),
+  print(x.gc()),    # [4,2,3]
+  x.inc(),
+  print(x.gc()),    # [5,2,3]
+  print(x.c.pop()), # 3
+  print(x.c)        # [5,2]
+)
