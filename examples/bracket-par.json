@@ -1,0 +1,25 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "property",
+    "operator": {
+      "type": "word",
+      "line": 1,
+      "col": 1,
+      "length": 1,
+      "name": "a"
+    },
+    "args": [
+      {
+        "type": "value",
+        "value": 1
+      }
+    ]
+  },
+  "args": [
+    {
+      "type": "value",
+      "value": 0
+    }
+  ]
+}

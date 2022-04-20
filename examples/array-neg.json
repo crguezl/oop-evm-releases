@@ -1,0 +1,114 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 3,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 7,
+          "length": 1,
+          "name": "x"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 2,
+            "col": 10,
+            "length": 5,
+            "name": "array"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 1,
+              "line": 2,
+              "col": 16,
+              "length": 1
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "line": 2,
+                "col": 19,
+                "length": 5,
+                "name": "array"
+              },
+              "args": [
+                {
+                  "type": "value",
+                  "value": 2,
+                  "line": 2,
+                  "col": 25,
+                  "length": 1
+                },
+                {
+                  "type": "value",
+                  "value": 3,
+                  "line": 2,
+                  "col": 27,
+                  "length": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 3,
+            "col": 9,
+            "length": 7,
+            "name": "element"
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 3,
+              "col": 17,
+              "length": 1,
+              "name": "x"
+            },
+            {
+              "type": "value",
+              "value": -1,
+              "line": 3,
+              "col": 20,
+              "length": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

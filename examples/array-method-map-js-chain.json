@@ -1,0 +1,237 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 5,
+        "length": 6,
+        "name": "define"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 12,
+          "length": 1,
+          "name": "x"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 2,
+            "col": 15,
+            "length": 5,
+            "name": "array"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 1,
+              "line": 2,
+              "col": 21,
+              "length": 1
+            },
+            {
+              "type": "value",
+              "value": 2,
+              "line": 2,
+              "col": 23,
+              "length": 1
+            },
+            {
+              "type": "value",
+              "value": 3,
+              "line": 2,
+              "col": 25,
+              "length": 1
+            },
+            {
+              "type": "value",
+              "value": 4,
+              "line": 2,
+              "col": 27,
+              "length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 5,
+        "length": 6,
+        "name": "define"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 3,
+          "col": 12,
+          "length": 3,
+          "name": "inc"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 3,
+            "col": 17,
+            "length": 3,
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 3,
+              "col": 21,
+              "length": 1,
+              "name": "x"
+            },
+            {
+              "type": "word",
+              "line": 3,
+              "col": 23,
+              "length": 1,
+              "name": "i"
+            },
+            {
+              "type": "word",
+              "line": 3,
+              "col": 25,
+              "length": 1,
+              "name": "_"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "line": 3,
+                "col": 28,
+                "length": 1,
+                "name": "+"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "line": 3,
+                  "col": 30,
+                  "length": 1,
+                  "name": "x"
+                },
+                {
+                  "type": "value",
+                  "value": 1,
+                  "line": 3,
+                  "col": 32,
+                  "length": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 4,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "word",
+              "line": 4,
+              "col": 11,
+              "length": 1,
+              "name": "x"
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "map",
+                "line": 4,
+                "col": 13,
+                "length": 5,
+                "raw": "\"map\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 4,
+              "col": 20,
+              "length": 3,
+              "name": "inc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 5,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "word",
+              "line": 5,
+              "col": 11,
+              "length": 1,
+              "name": "x"
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "map",
+                "line": 5,
+                "col": 13,
+                "length": 3,
+                "raw": "\"map\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 5,
+              "col": 17,
+              "length": 3,
+              "name": "inc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

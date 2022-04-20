@@ -1,0 +1,8 @@
+{
+  "type": "value",
+  "value": "hello",
+  "line": 1,
+  "col": 1,
+  "length": 7,
+  "raw": "\"hello\""
+}

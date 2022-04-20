@@ -1,0 +1,19 @@
+do (
+  def(x, object ( 
+    "c",   0,
+    "gc",  ->(self["c"]),
+    "sc",  ->(value, =(self["c"], value)),
+    "inc", ->(=(self, "c", +(self["c"],1)))
+  )),
+  
+  print(x),
+  print(x["c"]),           # 0
+  #print(x.c),              # 0
+  print(x.gc()) ,           # 0 calls the function!
+  print(x["gc"]), # [Function: bound ]
+  print(x.sc(5)),          # 5
+  print(x["sc"](6)),       # 6
+  print(x["gc"]())            # 6
+
+)
+

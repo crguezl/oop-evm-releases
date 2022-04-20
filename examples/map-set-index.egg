@@ -1,0 +1,12 @@
+do (
+  def(x, map(x: 4, y: map(z: 3))),
+  print(x),                        # Map ( x: 4, y: Map ( z: 3 ) )
+  
+  set(x["x"], 9),
+  
+  print(element(x, "x")),          # 9
+  set(x["y"]["z"], -1),
+  print(x)                         # Map ( x: 9, y: Map ( z: -1 ) )
+  
+)
+

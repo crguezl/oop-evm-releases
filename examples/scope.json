@@ -1,0 +1,259 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "offset": 0,
+    "lineBreaks": 0,
+    "line": 1,
+    "col": 1,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 7,
+        "lineBreaks": 0,
+        "line": 2,
+        "col": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 11,
+          "lineBreaks": 0,
+          "line": 2,
+          "col": 7,
+          "name": "x"
+        },
+        {
+          "type": "value",
+          "value": 9,
+          "raw": "9"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 61,
+        "lineBreaks": 0,
+        "line": 4,
+        "col": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 65,
+          "lineBreaks": 0,
+          "line": 4,
+          "col": 7,
+          "name": "f"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "offset": 68,
+            "lineBreaks": 0,
+            "line": 4,
+            "col": 10,
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "offset": 77,
+                "lineBreaks": 0,
+                "line": 5,
+                "col": 5,
+                "name": "do"
+              },
+              "args": [
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "word",
+                    "offset": 87,
+                    "lineBreaks": 0,
+                    "line": 6,
+                    "col": 7,
+                    "name": "def"
+                  },
+                  "args": [
+                    {
+                      "type": "word",
+                      "offset": 91,
+                      "lineBreaks": 0,
+                      "line": 6,
+                      "col": 11,
+                      "name": "x"
+                    },
+                    {
+                      "type": "value",
+                      "value": 4,
+                      "raw": "4"
+                    }
+                  ]
+                },
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "word",
+                    "offset": 104,
+                    "lineBreaks": 0,
+                    "line": 7,
+                    "col": 7,
+                    "name": "print"
+                  },
+                  "args": [
+                    {
+                      "type": "word",
+                      "offset": 110,
+                      "lineBreaks": 0,
+                      "line": 7,
+                      "col": 13,
+                      "name": "x"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 176,
+        "lineBreaks": 0,
+        "line": 11,
+        "col": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 180,
+          "lineBreaks": 0,
+          "line": 11,
+          "col": 7,
+          "name": "g"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "offset": 183,
+            "lineBreaks": 0,
+            "line": 11,
+            "col": 10,
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "offset": 187,
+                "lineBreaks": 0,
+                "line": 11,
+                "col": 14,
+                "name": "set"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "offset": 191,
+                  "lineBreaks": 0,
+                  "line": 11,
+                  "col": 18,
+                  "name": "x"
+                },
+                {
+                  "type": "value",
+                  "value": 8,
+                  "raw": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 202,
+        "lineBreaks": 0,
+        "line": 12,
+        "col": 3,
+        "name": "f"
+      },
+      "args": []
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 209,
+        "lineBreaks": 0,
+        "line": 13,
+        "col": 3,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 215,
+          "lineBreaks": 0,
+          "line": 13,
+          "col": 9,
+          "name": "x"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 225,
+        "lineBreaks": 0,
+        "line": 14,
+        "col": 3,
+        "name": "g"
+      },
+      "args": []
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 232,
+        "lineBreaks": 0,
+        "line": 15,
+        "col": 3,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 238,
+          "lineBreaks": 0,
+          "line": 15,
+          "col": 9,
+          "name": "x"
+        }
+      ]
+    }
+  ]
+}

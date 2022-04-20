@@ -1,0 +1,43 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 5,
+    "name": "print"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "property",
+        "operator": {
+          "type": "word",
+          "line": 1,
+          "col": 7,
+          "length": 1,
+          "name": "+"
+        },
+        "args": [
+          {
+            "type": "value",
+            "value": 4,
+            "line": 1,
+            "col": 9,
+            "length": 1
+          }
+        ]
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": 2,
+          "line": 1,
+          "col": 12,
+          "length": 1
+        }
+      ]
+    }
+  ]
+}

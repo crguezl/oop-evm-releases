@@ -1,0 +1,15 @@
+do (
+  def(x, object(
+    "c", 0,
+    "gc",  fun(element(self, "c")),
+    "sc",  fun(value, =(self.c, value)),
+    "inc", fun(=(self.c, +(self.c, 1)))
+  )),
+  print(x),
+  print(x.gc()), # 0
+  x.sc(4),
+  print(x.gc()), # 4
+  x.inc(),
+  print(x.gc()), # 5
+  print(x.c)     # 5
+)

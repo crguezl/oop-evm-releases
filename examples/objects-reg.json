@@ -1,0 +1,175 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 9,
+          "length": 1,
+          "name": "o"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 2,
+            "col": 12,
+            "length": 6,
+            "name": "object"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "regex",
+              "line": 3,
+              "col": 9,
+              "length": 5,
+              "raw": "\"regex\""
+            },
+            {
+              "type": "word",
+              "line": 3,
+              "col": 16,
+              "length": 5,
+              "name": "r/a+/"
+            },
+            {
+              "type": "value",
+              "value": "match",
+              "line": 4,
+              "col": 9,
+              "length": 5,
+              "raw": "\"match\""
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "line": 4,
+                "col": 16,
+                "length": 3,
+                "name": "fun"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "line": 4,
+                  "col": 20,
+                  "length": 6,
+                  "name": "string"
+                },
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "property",
+                    "operator": {
+                      "type": "property",
+                      "operator": {
+                        "type": "word",
+                        "line": 4,
+                        "col": 28,
+                        "length": 4,
+                        "name": "self"
+                      },
+                      "args": [
+                        {
+                          "type": "value",
+                          "value": "regex",
+                          "line": 4,
+                          "col": 33,
+                          "length": 5,
+                          "raw": "\"regex\""
+                        }
+                      ]
+                    },
+                    "args": [
+                      {
+                        "type": "value",
+                        "value": "exec",
+                        "line": 4,
+                        "col": 39,
+                        "length": 4,
+                        "raw": "\"exec\""
+                      }
+                    ]
+                  },
+                  "args": [
+                    {
+                      "type": "word",
+                      "line": 4,
+                      "col": 44,
+                      "length": 6,
+                      "name": "string"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 6,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "word",
+              "line": 6,
+              "col": 11,
+              "length": 1,
+              "name": "o"
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "match",
+                "line": 6,
+                "col": 13,
+                "length": 5,
+                "raw": "\"match\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "exaaaamples/string.egg",
+              "line": 6,
+              "col": 19,
+              "length": 24,
+              "raw": "\"exaaaamples/string.egg\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

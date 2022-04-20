@@ -1,0 +1,44 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "offset": 0,
+    "lineBreaks": 0,
+    "line": 1,
+    "col": 1,
+    "name": "+"
+  },
+  "args": [
+    {
+      "type": "word",
+      "offset": 2,
+      "lineBreaks": 0,
+      "line": 1,
+      "col": 3,
+      "name": "a"
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 4,
+        "lineBreaks": 0,
+        "line": 1,
+        "col": 5,
+        "name": "*"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": 4,
+          "raw": "4"
+        },
+        {
+          "type": "value",
+          "value": 5,
+          "raw": "5"
+        }
+      ]
+    }
+  ]
+}

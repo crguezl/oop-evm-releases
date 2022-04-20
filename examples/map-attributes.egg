@@ -1,0 +1,10 @@
+do (
+  def(x, map(x: 4, y: map(z: 3))),
+  print(x),                               # Map ( x: 4, y: Map ( z: 3 ) )
+  print(x["x"]),                          # 4
+  print(x["y"]["z"]),                     # 3
+  set(x["y"]["z"], 100),
+  print(x["y"]["z"])                      # 100
+)
+
+

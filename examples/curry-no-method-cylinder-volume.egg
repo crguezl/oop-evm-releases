@@ -1,0 +1,10 @@
+do(
+    def(cylinderArea, 
+      fun(r, h, # 2πr(r + h) 
+        *(2, *(Math.PI, *(r, +(r,h))))
+      )
+    ),
+    def(tin, cylinderArea[1]),
+    print(tin(2))
+)
+

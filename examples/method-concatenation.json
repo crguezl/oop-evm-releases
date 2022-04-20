@@ -1,0 +1,106 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "apply",
+              "operator": {
+                "type": "property",
+                "operator": {
+                  "type": "apply",
+                  "operator": {
+                    "type": "property",
+                    "operator": {
+                      "type": "apply",
+                      "operator": {
+                        "type": "word",
+                        "line": 2,
+                        "col": 9,
+                        "length": 5,
+                        "name": "array"
+                      },
+                      "args": [
+                        {
+                          "type": "value",
+                          "value": 1
+                        },
+                        {
+                          "type": "value",
+                          "value": 4
+                        },
+                        {
+                          "type": "value",
+                          "value": 5
+                        }
+                      ]
+                    },
+                    "args": [
+                      {
+                        "type": "value",
+                        "value": "join"
+                      }
+                    ]
+                  },
+                  "args": [
+                    {
+                      "type": "value",
+                      "value": "-"
+                    }
+                  ]
+                },
+                "args": [
+                  {
+                    "type": "value",
+                    "value": "substring"
+                  }
+                ]
+              },
+              "args": [
+                {
+                  "type": "value",
+                  "value": 0
+                },
+                {
+                  "type": "value",
+                  "value": 2
+                }
+              ]
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "concat"
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "hello egg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

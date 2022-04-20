@@ -1,0 +1,122 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 3,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 7,
+          "length": 1,
+          "name": "x"
+        },
+        {
+          "type": "value",
+          "value": -4.5
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 3,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 3,
+          "col": 7,
+          "length": 1,
+          "name": "y"
+        },
+        {
+          "type": "value",
+          "value": 400
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 4,
+        "col": 3,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 4,
+          "col": 7,
+          "length": 1,
+          "name": "z"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 4,
+            "col": 10,
+            "length": 1,
+            "name": "+"
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 4,
+              "col": 12,
+              "length": 1,
+              "name": "x"
+            },
+            {
+              "type": "word",
+              "line": 4,
+              "col": 15,
+              "length": 1,
+              "name": "y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 5,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 5,
+          "col": 9,
+          "length": 1,
+          "name": "z"
+        }
+      ]
+    }
+  ]
+}

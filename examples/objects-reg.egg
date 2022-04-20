@@ -1,0 +1,7 @@
+do(
+    def(o, object(
+        regex: r/a+/,
+        match: fun(string, self.regex.exec(string))
+    )),
+    print(o.match("exaaaamples/string.egg"))
+)

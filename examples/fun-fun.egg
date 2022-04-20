@@ -1,0 +1,9 @@
+do(
+  def(f, fun(x, +(x,1))),
+  def(g, fun(x, *(x,2))),
+  def(**, fun(lambda1, lambda2, fun(z, lambda1(lambda2(z))
+                                   )
+             )
+  ),
+  print(**(g,f)(8))
+)

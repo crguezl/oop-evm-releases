@@ -1,0 +1,147 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "property",
+          "operator": {
+            "type": "value",
+            "value": "hello",
+            "line": 2,
+            "col": 9,
+            "length": 7,
+            "raw": "\"hello\""
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "length",
+              "line": 2,
+              "col": 17,
+              "length": 6,
+              "raw": "\"length\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "value",
+              "value": 4,
+              "line": 3,
+              "col": 9,
+              "length": 1
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "toFixed",
+                "line": 3,
+                "col": 11,
+                "length": 7,
+                "raw": "\"toFixed\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 2,
+              "line": 3,
+              "col": 19,
+              "length": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 4,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "value",
+              "value": 4,
+              "line": 4,
+              "col": 9,
+              "length": 1
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "+",
+                "line": 4,
+                "col": 11,
+                "length": 1,
+                "raw": "\"+\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 5,
+              "line": 4,
+              "col": 13,
+              "length": 1
+            },
+            {
+              "type": "value",
+              "value": 7,
+              "line": 4,
+              "col": 16,
+              "length": 1
+            },
+            {
+              "type": "value",
+              "value": 3,
+              "line": 4,
+              "col": 19,
+              "length": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

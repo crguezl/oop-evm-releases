@@ -1,0 +1,261 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 3,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 7,
+          "length": 1,
+          "name": "x"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 2,
+            "col": 10,
+            "length": 3,
+            "name": "map"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "x",
+              "line": 2,
+              "col": 14,
+              "length": 1,
+              "raw": "\"x\""
+            },
+            {
+              "type": "value",
+              "value": 4,
+              "line": 2,
+              "col": 17,
+              "length": 1
+            },
+            {
+              "type": "value",
+              "value": "y",
+              "line": 2,
+              "col": 20,
+              "length": 1,
+              "raw": "\"y\""
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "line": 2,
+                "col": 23,
+                "length": 3,
+                "name": "map"
+              },
+              "args": [
+                {
+                  "type": "value",
+                  "value": "z",
+                  "line": 2,
+                  "col": 27,
+                  "length": 1,
+                  "raw": "\"z\""
+                },
+                {
+                  "type": "value",
+                  "value": 3,
+                  "line": 2,
+                  "col": 30,
+                  "length": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 3,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 3,
+          "col": 9,
+          "length": 1,
+          "name": "x"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 5,
+        "col": 3,
+        "length": 3,
+        "name": "set"
+      },
+      "args": [
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 5,
+            "col": 7,
+            "length": 1,
+            "name": "x"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "x",
+              "line": 5,
+              "col": 9,
+              "length": 3,
+              "raw": "\"x\""
+            }
+          ]
+        },
+        {
+          "type": "value",
+          "value": 9,
+          "line": 5,
+          "col": 15,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 7,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 7,
+            "col": 9,
+            "length": 7,
+            "name": "element"
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 7,
+              "col": 17,
+              "length": 1,
+              "name": "x"
+            },
+            {
+              "type": "value",
+              "value": "x",
+              "line": 7,
+              "col": 20,
+              "length": 3,
+              "raw": "\"x\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 8,
+        "col": 3,
+        "length": 3,
+        "name": "set"
+      },
+      "args": [
+        {
+          "type": "property",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "word",
+              "line": 8,
+              "col": 7,
+              "length": 1,
+              "name": "x"
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "y",
+                "line": 8,
+                "col": 9,
+                "length": 3,
+                "raw": "\"y\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "z",
+              "line": 8,
+              "col": 14,
+              "length": 3,
+              "raw": "\"z\""
+            }
+          ]
+        },
+        {
+          "type": "value",
+          "value": -1,
+          "line": 8,
+          "col": 20,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 9,
+        "col": 3,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 9,
+          "col": 9,
+          "length": 1,
+          "name": "x"
+        }
+      ]
+    }
+  ]
+}

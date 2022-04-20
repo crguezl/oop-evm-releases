@@ -1,0 +1,44 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 5,
+    "name": "print"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "property",
+        "operator": {
+          "type": "value",
+          "value": 4.3,
+          "line": 1,
+          "col": 7,
+          "length": 3
+        },
+        "args": [
+          {
+            "type": "value",
+            "value": "toFixed",
+            "line": 1,
+            "col": 11,
+            "length": 7,
+            "raw": "\"toFixed\""
+          }
+        ]
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": 2,
+          "line": 1,
+          "col": 19,
+          "length": 1
+        }
+      ]
+    }
+  ]
+}

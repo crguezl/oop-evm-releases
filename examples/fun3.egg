@@ -1,0 +1,4 @@
+do(
+  def(t, fun(x, fun(y, fun(z, +(+(x, y),z))))),
+  print(t(1)(2)(3))
+)

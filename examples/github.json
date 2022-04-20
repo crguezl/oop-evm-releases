@@ -1,0 +1,847 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "line": 1,
+    "col": 1,
+    "length": 2,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 2,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 2,
+          "col": 9,
+          "length": 3,
+          "name": "lib"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "word",
+              "line": 3,
+              "col": 7,
+              "length": 4,
+              "name": "path"
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "join",
+                "line": 3,
+                "col": 12,
+                "length": 4,
+                "raw": "\"join\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "apply",
+              "operator": {
+                "type": "property",
+                "operator": {
+                  "type": "word",
+                  "line": 4,
+                  "col": 9,
+                  "length": 7,
+                  "name": "process"
+                },
+                "args": [
+                  {
+                    "type": "value",
+                    "value": "cwd",
+                    "line": 4,
+                    "col": 17,
+                    "length": 3,
+                    "raw": "\"cwd\""
+                  }
+                ]
+              },
+              "args": []
+            },
+            {
+              "type": "value",
+              "value": "node_modules",
+              "line": 5,
+              "col": 9,
+              "length": 14,
+              "raw": "\"node_modules\""
+            },
+            {
+              "type": "value",
+              "value": "@ull-esit-pl-2122",
+              "line": 6,
+              "col": 9,
+              "length": 19,
+              "raw": "\"@ull-esit-pl-2122\""
+            },
+            {
+              "type": "value",
+              "value": "eloquentjsegg",
+              "line": 7,
+              "col": 9,
+              "length": 15,
+              "raw": "\"eloquentjsegg\""
+            },
+            {
+              "type": "value",
+              "value": "lib",
+              "line": 8,
+              "col": 9,
+              "length": 5,
+              "raw": "\"lib\""
+            },
+            {
+              "type": "value",
+              "value": "github.js",
+              "line": 9,
+              "col": 9,
+              "length": 11,
+              "raw": "\"github.js\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 12,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 12,
+          "col": 11,
+          "length": 3,
+          "name": "lib"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 15,
+        "col": 5,
+        "length": 3,
+        "name": "use"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "@ull-esit-pl-2122/eloquentjsegg/lib/github.js",
+          "line": 15,
+          "col": 9,
+          "length": 47,
+          "raw": "\"@ull-esit-pl-2122/eloquentjsegg/lib/github.js\""
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 16,
+        "col": 5,
+        "length": 8,
+        "name": "setToken"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "examples/.eggtoken",
+          "line": 16,
+          "col": 14,
+          "length": 20,
+          "raw": "\"examples/.eggtoken\""
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 18,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 18,
+          "col": 9,
+          "length": 2,
+          "name": "me"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 18,
+            "col": 13,
+            "length": 6,
+            "name": "whoami"
+          },
+          "args": []
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 19,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Teacher: ",
+          "line": 19,
+          "col": 11,
+          "length": 11,
+          "raw": "\"Teacher: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 19,
+            "col": 23,
+            "length": 2,
+            "name": "me"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "name",
+              "line": 19,
+              "col": 26,
+              "length": 4,
+              "raw": "\"name\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 20,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Teacher's blog:",
+          "line": 20,
+          "col": 11,
+          "length": 17,
+          "raw": "\"Teacher's blog:\""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 20,
+            "col": 29,
+            "length": 2,
+            "name": "me"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "blog",
+              "line": 20,
+              "col": 32,
+              "length": 4,
+              "raw": "\"blog\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 22,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 22,
+          "col": 9,
+          "length": 2,
+          "name": "pl"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 22,
+            "col": 13,
+            "length": 3,
+            "name": "org"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "ULL-ESIT-PL-1920",
+              "line": 22,
+              "col": 17,
+              "length": 18,
+              "raw": "\"ULL-ESIT-PL-1920\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 24,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Total number of repos in ULL-ESIT-PL-1920: ",
+          "line": 24,
+          "col": 11,
+          "length": 45,
+          "raw": "\"Total number of repos in ULL-ESIT-PL-1920: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 24,
+            "col": 57,
+            "length": 2,
+            "name": "pl"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "total_private_repos",
+              "line": 24,
+              "col": 60,
+              "length": 19,
+              "raw": "\"total_private_repos\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 25,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Number of collaborators in ULL-ESIT-PL-1920: ",
+          "line": 25,
+          "col": 11,
+          "length": 47,
+          "raw": "\"Number of collaborators in ULL-ESIT-PL-1920: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 25,
+            "col": 59,
+            "length": 2,
+            "name": "pl"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "collaborators",
+              "line": 25,
+              "col": 62,
+              "length": 13,
+              "raw": "\"collaborators\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 27,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 27,
+          "col": 9,
+          "length": 9,
+          "name": "membersPL"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 27,
+            "col": 20,
+            "length": 7,
+            "name": "members"
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 27,
+              "col": 28,
+              "length": 2,
+              "name": "pl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 28,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Total members in PL: ",
+          "line": 28,
+          "col": 11,
+          "length": 23,
+          "raw": "\"Total members in PL: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 28,
+            "col": 35,
+            "length": 9,
+            "name": "membersPL"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "length",
+              "line": 28,
+              "col": 45,
+              "length": 6,
+              "raw": "\"length\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 30,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 30,
+          "col": 9,
+          "length": 15,
+          "name": "collaboratorsPL"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "line": 30,
+            "col": 26,
+            "length": 13,
+            "name": "collaborators"
+          },
+          "args": [
+            {
+              "type": "word",
+              "line": 30,
+              "col": 40,
+              "length": 2,
+              "name": "pl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 31,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Total collaborators in PL: ",
+          "line": 31,
+          "col": 11,
+          "length": 29,
+          "raw": "\"Total collaborators in PL: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 31,
+            "col": 41,
+            "length": 15,
+            "name": "collaboratorsPL"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "length",
+              "line": 31,
+              "col": 57,
+              "length": 6,
+              "raw": "\"length\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 33,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 33,
+          "col": 9,
+          "length": 6,
+          "name": "inside"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "property",
+            "operator": {
+              "type": "word",
+              "line": 33,
+              "col": 17,
+              "length": 9,
+              "name": "membersPL"
+            },
+            "args": [
+              {
+                "type": "value",
+                "value": "map",
+                "line": 33,
+                "col": 27,
+                "length": 3,
+                "raw": "\"map\""
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "line": 33,
+                "col": 31,
+                "length": 3,
+                "name": "fun"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "line": 33,
+                  "col": 35,
+                  "length": 2,
+                  "name": "cv"
+                },
+                {
+                  "type": "word",
+                  "line": 33,
+                  "col": 39,
+                  "length": 1,
+                  "name": "i"
+                },
+                {
+                  "type": "word",
+                  "line": 33,
+                  "col": 42,
+                  "length": 1,
+                  "name": "a"
+                },
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "word",
+                    "length": 5,
+                    "name": "array"
+                  },
+                  "args": [
+                    {
+                      "type": "property",
+                      "operator": {
+                        "type": "word",
+                        "line": 34,
+                        "col": 12,
+                        "length": 2,
+                        "name": "cv"
+                      },
+                      "args": [
+                        {
+                          "type": "value",
+                          "value": "login",
+                          "line": 34,
+                          "col": 15,
+                          "length": 5,
+                          "raw": "\"login\""
+                        }
+                      ]
+                    },
+                    {
+                      "type": "property",
+                      "operator": {
+                        "type": "word",
+                        "line": 34,
+                        "col": 22,
+                        "length": 2,
+                        "name": "cv"
+                      },
+                      "args": [
+                        {
+                          "type": "value",
+                          "value": "url",
+                          "line": 34,
+                          "col": 25,
+                          "length": 3,
+                          "raw": "\"url\""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 38,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "First and last Members: ",
+          "line": 38,
+          "col": 11,
+          "length": 26,
+          "raw": "\"First and last Members: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 38,
+            "col": 39,
+            "length": 6,
+            "name": "inside"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 0,
+              "line": 38,
+              "col": 46,
+              "length": 1
+            }
+          ]
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 38,
+            "col": 50,
+            "length": 6,
+            "name": "inside"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": -1,
+              "line": 38,
+              "col": 57,
+              "length": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 40,
+        "col": 5,
+        "length": 3,
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "line": 40,
+          "col": 9,
+          "length": 7,
+          "name": "lastCol"
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 40,
+            "col": 18,
+            "length": 15,
+            "name": "collaboratorsPL"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": -1,
+              "line": 40,
+              "col": 34,
+              "length": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "line": 41,
+        "col": 5,
+        "length": 5,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": "Last collaborator: ",
+          "line": 41,
+          "col": 11,
+          "length": 21,
+          "raw": "\"Last collaborator: \""
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 41,
+            "col": 34,
+            "length": 7,
+            "name": "lastCol"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "login",
+              "line": 41,
+              "col": 42,
+              "length": 5,
+              "raw": "\"login\""
+            }
+          ]
+        },
+        {
+          "type": "property",
+          "operator": {
+            "type": "word",
+            "line": 41,
+            "col": 49,
+            "length": 7,
+            "name": "lastCol"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": "url",
+              "line": 41,
+              "col": 57,
+              "length": 3,
+              "raw": "\"url\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "offset": 0,
+    "lineBreaks": 0,
+    "line": 1,
+    "col": 1,
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 7,
+        "lineBreaks": 0,
+        "line": 2,
+        "col": 4,
+        "name": "define"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 14,
+          "lineBreaks": 0,
+          "line": 2,
+          "col": 11,
+          "name": "x"
+        },
+        {
+          "type": "value",
+          "value": 4,
+          "raw": "4"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 24,
+        "lineBreaks": 0,
+        "line": 3,
+        "col": 4,
+        "name": "define"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 31,
+          "lineBreaks": 0,
+          "line": 3,
+          "col": 11,
+          "name": "setx"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "offset": 37,
+            "lineBreaks": 0,
+            "line": 3,
+            "col": 17,
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "offset": 41,
+              "lineBreaks": 0,
+              "line": 3,
+              "col": 21,
+              "name": "val"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "offset": 52,
+                "lineBreaks": 0,
+                "line": 4,
+                "col": 6,
+                "name": "set"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "offset": 56,
+                  "lineBreaks": 0,
+                  "line": 4,
+                  "col": 10,
+                  "name": "x"
+                },
+                {
+                  "type": "word",
+                  "offset": 59,
+                  "lineBreaks": 0,
+                  "line": 4,
+                  "col": 13,
+                  "name": "val"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 109,
+        "lineBreaks": 0,
+        "line": 7,
+        "col": 4,
+        "name": "setx"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": 50,
+          "raw": "50"
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "offset": 122,
+        "lineBreaks": 0,
+        "line": 8,
+        "col": 4,
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "word",
+          "offset": 128,
+          "lineBreaks": 0,
+          "line": 8,
+          "col": 10,
+          "name": "x"
+        }
+      ]
+    }
+  ]
+}

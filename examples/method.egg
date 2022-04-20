@@ -1,0 +1,5 @@
+do(
+  def(x, array(1,4,5)),
+  print(x["join"]("-"))
+)
+

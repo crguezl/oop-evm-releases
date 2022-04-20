@@ -1,0 +1,42 @@
+do(
+    def(lib, 
+      path.join(
+        process.cwd(), # Execute from the root of this project
+        "node_modules", 
+        "@ull-esit-pl-2122",
+        "eloquentjsegg",
+        "lib",
+        "github.js"
+      )
+    ),
+    print(lib),
+
+    #use(lib),   # Carga el módulo para trabajar con la Api de GitHub
+    use("@ull-esit-pl-2122/eloquentjsegg/lib/github.js"),
+    setToken("examples/.eggtoken"),               # Token Obtenido en la web de GitHub https://github.com/settings/tokens
+
+    def(me, whoami()),
+    print("Teacher: ",me.name),
+    print("Teacher's blog:",me.blog),
+
+    def(pl, org("ULL-ESIT-PL-1920")), 
+    # print(pl),
+    print("Total number of repos in ULL-ESIT-PL-1920: ",pl.total_private_repos),
+    print("Number of collaborators in ULL-ESIT-PL-1920: ",pl.collaborators),
+
+    def(membersPL, members(pl)),
+    print("Total members in PL: ",membersPL.length),
+
+    def(collaboratorsPL, collaborators(pl)), 
+    print("Total collaborators in PL: ",collaboratorsPL.length),
+    
+    def(inside, membersPL.map(fun(cv, i, a, 
+          [cv.login, cv.url]
+        ) # end function
+      ) # end map
+    ), # end def
+    print("First and last Members: ", inside[0], inside[-1]),
+    
+    def(lastCol, collaboratorsPL[-1]),
+    print("Last collaborator: ", lastCol.login, lastCol.url)
+)

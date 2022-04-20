@@ -1,0 +1,6 @@
+do(
+    def(a, { p : { q : { r : 1 } } }),
+    def(b, a["p", "q", "r"]),
+    print(b),      # 1
+    print(a.p.q.r) # Same
+)

@@ -1,0 +1,195 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "name": "f"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "x"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "+"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "x"
+                },
+                {
+                  "type": "value",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "name": "g"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "x"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "*"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "x"
+                },
+                {
+                  "type": "value",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "name": "**"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "lambda1"
+            },
+            {
+              "type": "word",
+              "name": "lambda2"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "fun"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "z"
+                },
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "word",
+                    "name": "lambda1"
+                  },
+                  "args": [
+                    {
+                      "type": "apply",
+                      "operator": {
+                        "type": "word",
+                        "name": "lambda2"
+                      },
+                      "args": [
+                        {
+                          "type": "word",
+                          "name": "z"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "apply",
+            "operator": {
+              "type": "word",
+              "name": "**"
+            },
+            "args": [
+              {
+                "type": "word",
+                "name": "g"
+              },
+              {
+                "type": "word",
+                "name": "f"
+              }
+            ]
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

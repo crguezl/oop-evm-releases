@@ -1,0 +1,15 @@
+do (
+  def (x, [[1,2], [3,4]]),
+  =(x[0], 9), # [9, [3,4]]
+  print(x), # [ 9, [ 3, 4 ] ]
+  
+  def(y, map(x:4, y: array(0,7))),
+  =(y["y"][1], 9), # map(x:4, y: [0,9])
+  print(y["y", 1]), # 9
+  print(y), # { x: 4, y: [ 0, 9 ] }
+
+  def(z, { c:4, g: fun(a, =(self.c, a))}),
+  print(z.c),    # 4
+  print(z.g(8)), # 8
+  print(z.c)     # 8
+)

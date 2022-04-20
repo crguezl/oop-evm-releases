@@ -1,0 +1,4 @@
+do(
+    def(f, fun(x, y, +(x,y))),
+    print(f.numParams) # 1 JS length property is not supported
+)

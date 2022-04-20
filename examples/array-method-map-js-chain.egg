@@ -1,0 +1,6 @@
+do(
+    define(x, array(1,2,3,4)),
+    define(inc, fun(x,i,_, +(x,1))), # the _ is required since Egg is strict with the number of params
+    print(x["map"](inc)),
+    print(x.map(inc))
+)
